@@ -3,8 +3,6 @@
 Welcome to **removeStoryboardDynamically.sh**, the clean, simple, and fully automated shell script to help you completely remove `Main.storyboard` from your Xcode project. This script also cleans up all related settings in your project files and sets up your `SceneDelegate.swift` for a fully programmatic UI launch.  
 
 ***
-<img width="545" height="342" alt="Screenshot 2025-08-11 at 11 25 46 AM" src="https://github.com/user-attachments/assets/96f19d06-576a-404d-8a96-0b937d645a6c" />
-
 Why Use removeStoryboard.sh?
 
 - 💻 **Save time and avoid errors**: Automates storyboard removal steps that are usually manual and error-prone.
@@ -14,7 +12,8 @@ Why Use removeStoryboard.sh?
 - 🧹 **Safe and idempotent**: Contains checks to avoid errors if keys/files are already missing.
 
 ***
-<img width="1432" height="467" alt="Screenshot 2025-08-11 at 11 28 17 AM" src="https://github.com/user-attachments/assets/44385586-d439-4728-a569-785a824c5927" />
+Before Running this Script Screenshot:
+<img width="1400" height="846" alt="Screenshot 2025-08-11 at 11 35 11 AM" src="https://github.com/user-attachments/assets/7cf5c024-1f6f-45c7-93a7-7571829fd8c7" />
 
 - Deletes the `Main.storyboard` file from your project folder.
 - Removes `UIMainStoryboardFile` and related storyboard keys from `Info.plist`.
@@ -77,15 +76,18 @@ Enter your project name when asked, and let the script handle the rest!
 
 _Run Script in Terminal:_
 
-<img width="526" height="334" alt="Screenshot 2025-08-11 at 11 29 21 AM" src="https://github.com/user-attachments/assets/dffc9379-453a-422e-b5cb-3eaccd8770cb" />
+<img width="765" height="428" alt="Screenshot 2025-08-11 at 11 38 06 AM" src="https://github.com/user-attachments/assets/aaf7774a-bdee-43d6-a528-b04a44d6d5cc" />
 
-_Scene Delegate Code:_
 
-<img width="1440" height="621" alt="Screenshot 2025-08-11 at 11 29 32 AM" src="https://github.com/user-attachments/assets/009b6f48-62ad-4750-ad21-a77d20e17903" />
+_info.plist & Scene Delegate Code:_
+
+<img width="1440" height="900" alt="Screenshot 2025-08-11 at 11 36 46 AM" src="https://github.com/user-attachments/assets/f772fe7f-513b-466b-b58d-a6d37ab87c4a" />
+
+<img width="1440" height="900" alt="Screenshot 2025-08-11 at 11 42 16 AM" src="https://github.com/user-attachments/assets/c7764d8c-43ef-4012-b4c7-b9863404fc32" />
 
 _Both Script and Project are parallely placed in the Root Folder:_
 
-<img width="274" height="146" alt="Screenshot 2025-08-11 at 11 30 32 AM" src="https://github.com/user-attachments/assets/5a01b77c-91a1-4b72-bf38-52fef52d0335" />
+<img width="362" height="157" alt="Screenshot 2025-08-11 at 11 40 20 AM" src="https://github.com/user-attachments/assets/823a99b7-bd5a-44a9-8295-6cdfad464acc" />
 
 Want to adjust the initial view controller or add more functionality? Edit the `SCENE_DELEGATE_CONTENT` variable inside the script where your Swift code is defined.
 
