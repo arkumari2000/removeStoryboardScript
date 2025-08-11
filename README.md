@@ -1,4 +1,4 @@
-# removeStoryboard.sh — Automate Removing Main.storyboard from Your Xcode Project
+# removeStoryboardDynamically.sh — Automate Removing Main.storyboard from Your Xcode Project
 
 Welcome to **removeStoryboardDynamically.sh**, the clean, simple, and fully automated shell script to help you completely remove `Main.storyboard` from your Xcode project. This script also cleans up all related settings in your project files and sets up your `SceneDelegate.swift` for a fully programmatic UI launch.  
 
